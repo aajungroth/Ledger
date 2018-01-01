@@ -10,7 +10,7 @@ namespace Ledger.Models
         [Key]
         [ForeignKey("Book")]
         public int BookID { get; set; }
-        public string ReviewerName;
-        public string Body;
+        public string ReviewerName { get; set; }
+        public string Body { get; set; }
     }
 }
