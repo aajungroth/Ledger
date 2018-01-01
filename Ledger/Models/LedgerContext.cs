@@ -11,6 +11,6 @@ namespace Ledger.Models
 
         public DbSet<Ledger.Models.AuthorClass> Author { get; set; }
         public DbSet<Ledger.Models.BookClass> Book { get; set; }
-        public DbSet<Ledger.Models.ReviewClass> Reveiw { get; set; }
+        public DbSet<Ledger.Models.ReviewClass> Review { get; set; }
     }
 }
