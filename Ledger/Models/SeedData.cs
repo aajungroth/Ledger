@@ -98,32 +98,32 @@ namespace Ledger.Models
                          {
                             ID = 1,
                             BookID = 1,
-                            ReviewerName = "Test",
-                            Body = "Test"
+                            ReviewerName = "Anonymous",
+                            Body = "Not as a good as the film."
                          },
 
                          new ReviewClass
                          {
                             ID = 2,
                             BookID = 2,
-                            ReviewerName = "Test",
-                            Body = "Test"
+                            ReviewerName = "Fan",
+                            Body = "Childhood classic."
                          },
 
                          new ReviewClass
                          {
                             ID = 3,
                             BookID = 3,
-                            ReviewerName = "Test",
-                            Body = "Test"
+                            ReviewerName = "Guy",
+                            Body = "Souds cool, haven't read it."
                          },
 
                          new ReviewClass
                          {
                             ID = 4,
                             BookID = 4,
-                            ReviewerName = "Test",
-                            Body = "Test"
+                            ReviewerName = "Blind Man",
+                            Body = "Great read. Skip the end."
                          }
                     );
                     context.SaveChanges();
